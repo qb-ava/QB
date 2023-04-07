@@ -19,6 +19,7 @@ html{
 }
 
 #horizontal_block {
+    width: 80vw;
     padding-top: 0.01vh;
     padding-bottom: 0.01vh;
     padding-right: 1dvw;
@@ -27,8 +28,7 @@ html{
     margin-left: 1dvw;
     margin-right: 1dvw;
     margin-bottom: 2vh;
-    backdrop-filter: blur(30px);
-    background-color: rgba(46, 41, 41, 0.384);
+    background-color: rgba(0, 0, 0, 0.500);
 }
 
 #o {
@@ -36,8 +36,11 @@ html{
 }
 
 #dash {
+    padding-top: 1.6vh;
+    background-color: rgba(5, 5, 5, 0.671);
     justify-content: center;
     display: flex;
+    margin-bottom: 2vh;
 }
 
 #name {
@@ -52,6 +55,14 @@ html{
     width: 100vw;
 }
 
+#box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #box {
     display: flex;
     justify-content: center;
@@ -60,11 +71,12 @@ html{
 
 .inner {
     border-radius: 0.5vh;
-    margin-left: 2vw;
-    text-align: center;
+    text-align: center ;
     width: 20dvw;
     backdrop-filter: blur(20px);
-    background-color: rgba(66, 66, 66, 0.120);
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    background-color: rgba(31, 31, 31, 0.12);
 }
 
 .redirects {
@@ -72,11 +84,12 @@ html{
     color: white;
     text-decoration: none;
     border-radius: 1vh;   
-    background-color: rgba(66, 66, 66, 0.120);
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;   
     width: 20vw;
     font-size: medium;    
+    font-weight: 600;
+    background-color: rgba(66, 66, 66, 0.120);
 }
 
 .redirects:hover {
