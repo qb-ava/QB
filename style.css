@@ -5,16 +5,17 @@ html{
     background-image: url("redish.jpg");
     padding-left: 0px;
     background-size:cover;
-    }
+    font-size: large;
+}
 
 #main {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(25px);
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
     position: absolute;
-    background-color: rgba(19, 19, 19, 0.712);
+    background-color: rgba(20, 20, 20, 0.700);
 }
 
 #horizontal_block {
@@ -22,23 +23,35 @@ html{
     padding-bottom: 0.01vh;
     padding-right: 1dvw;
     padding-left: 1dvw;    
-    background-color: rgba(66, 66, 66, 0.205);
     border-radius: 1vh;
     margin-left: 1dvw;
     margin-right: 1dvw;
     margin-bottom: 2vh;
+    backdrop-filter: blur(30px);
+    background-color: rgba(46, 41, 41, 0.384);
 }
 
 #o {
     font-weight: 600;
 }
 
-#name {
-    font-weight: 500;
-    font-size: medium;
-    text-align: center;
-    margin-bottom: 3vh;
+#dash {
+    justify-content: center;
+    display: flex;
 }
+
+#name {
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 3vh;
+    text-decoration: none;
+    width: 100vw;
+}
+
 #box {
     display: flex;
     justify-content: center;
@@ -50,9 +63,25 @@ html{
     margin-left: 2vw;
     text-align: center;
     width: 20dvw;
-    background-color: rgb(34, 34, 34);
+    backdrop-filter: blur(20px);
+    background-color: rgba(66, 66, 66, 0.120);
 }
 
+.redirects {
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 1vh;   
+    background-color: rgba(66, 66, 66, 0.120);
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;   
+    width: 20vw;
+    font-size: medium;    
+}
+
+.redirects:hover {
+    background-color: rgb(0, 0, 0);
+}
 
 #footer {
     position: absolute;
@@ -61,6 +90,6 @@ html{
     right: 0;
     padding-top:1dvh;
     padding-bottom: 1dvh;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
