@@ -1,0 +1,66 @@
+html{
+    color: white;
+    font-family: monospace;
+    background-repeat: no-repeat;
+    background-image: url("redish.jpg");
+    padding-left: 0px;
+    background-size:cover;
+    }
+
+#main {
+    backdrop-filter: blur(10px);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(19, 19, 19, 0.712);
+}
+
+#horizontal_block {
+    padding-top: 0.01vh;
+    padding-bottom: 0.01vh;
+    padding-right: 1dvw;
+    padding-left: 1dvw;    
+    background-color: rgba(66, 66, 66, 0.205);
+    border-radius: 1vh;
+    margin-left: 1dvw;
+    margin-right: 1dvw;
+    margin-bottom: 2vh;
+}
+
+#o {
+    font-weight: 600;
+}
+
+#name {
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    border-radius: 0.5vh;
+    margin-left: 2vw;
+    text-align: center;
+    width: 20dvw;
+    background-color: rgb(34, 34, 34);
+}
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top:1dvh;
+    padding-bottom: 1dvh;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+}
