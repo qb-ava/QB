@@ -2,45 +2,29 @@ html{
     color: white;
     font-family: monospace;
     background-repeat: no-repeat;
-    background-image: url("redish.jpg");
+    background-image: url("blue.jpg");
     padding-left: 0px;
     background-size:cover;
     font-size: large;
 }
 
 #main {
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(26px);
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
     position: absolute;
-    background-color: rgba(20, 20, 20, 0.700);
+    background-color: rgba(7, 7, 7, 0.6);
 }
 
-#horizontal_block {
-    width: 80vw;
-    padding-top: 0.01vh;
-    padding-bottom: 0.01vh;
-    padding-right: 1dvw;
-    padding-left: 1dvw;    
-    border-radius: 1vh;
-    margin-left: 1dvw;
-    margin-right: 1dvw;
-    margin-bottom: 2vh;
-    background-color: rgba(0, 0, 0, 0.500);
-}
-
-#o {
-    font-weight: 600;
-}
 
 #dash {
     padding-top: 1.6vh;
     background-color: rgba(5, 5, 5, 0.671);
     justify-content: center;
     display: flex;
-    margin-bottom: 2vh;
+    margin-bottom: 5.5vh;
 }
 
 #name {
@@ -55,13 +39,6 @@ html{
     width: 100vw;
 }
 
-#box1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 
 #box {
     display: flex;
@@ -74,29 +51,77 @@ html{
     text-align: center ;
     width: 20dvw;
     backdrop-filter: blur(20px);
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    background-color: rgba(31, 31, 31, 0.12);
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
+    background-color: transparent;
+}
+
+.box1 {
+
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+.horizontal_block {
+    width: 80vw;
+    padding-top: 0.01vh;
+    padding-bottom: 0.01vh;
+    padding-right: 1dvw;
+    padding-left: 1dvw;    
+    border-radius: 1vh;
+    margin-left: 1dvw;
+    margin-right: 1dvw;
+    margin-bottom: 2vh;
+    background-color: rgba(17, 17, 17, 0.9);   
+}
+
+.social {
+    width: 9vh;
+    background-color: rgba(53, 53, 53, 0.336);
+}
+
+.social_btn {
+    padding-left: 0vw;
+    padding-top: 0vw;
+    width: 9vh;
+    height: 9vh;
+    border: none;
+    background-color: rgba(136, 136, 136, 0.24);
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+}
+
+.social_btn:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+#social_box {
+    bottom: 0;
+    position: absolute;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-bottom: 3.7vh;
 }
 
 .redirects {
     border: none;
     color: white;
-    text-decoration: none;
-    border-radius: 1vh;   
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;   
+    padding-top: 2.2vh;
+    padding-bottom: 2.2vh;   
+    border-radius: 1.2vh;
     width: 20vw;
     font-size: medium;    
-    font-weight: 600;
-    background-color: rgba(66, 66, 66, 0.120);
+    font-weight: 500;
+    background-color: rgba(17, 17, 17, 0.9);
 }
 
 .redirects:hover {
-    background-color: rgb(0, 0, 0);
+    color: tomato;
 }
 
 #footer {
+    font-size: small;
     position: absolute;
     bottom: 0;
     left: 0;
